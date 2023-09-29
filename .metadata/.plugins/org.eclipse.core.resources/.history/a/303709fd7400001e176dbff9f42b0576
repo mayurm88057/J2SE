@@ -1,0 +1,10 @@
+package Mutlithread;
+
+public class Testmain5 {
+	public static void main(String[] args) {
+		Thread t=Thread.currentThread();
+ System.out.println("status of main= "+ t.isDaemon());
+ t.setDaemon(true);
+System.out.println("status of main after" + t.isDaemon());
+ System.out.println("end of main");
+}}

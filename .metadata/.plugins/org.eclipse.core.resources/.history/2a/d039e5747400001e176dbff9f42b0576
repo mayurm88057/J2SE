@@ -1,0 +1,9 @@
+package Mutlithread;
+
+public class Testmain5 {
+	public static void main(String[] args) {
+		Thread t=Thread.currentThread();
+ 
+t.isAlive();
+System.out.println("end of main");
+}}

@@ -1,0 +1,17 @@
+package method8;
+
+import method3.Data;
+
+public class Test {
+
+	public static void main(String[] args) {
+  Demo d1=new Demo();
+  Demo d2=new Demo();
+  Demo d3=new Demo();
+  d1.setData(11,22,33);
+  d2.setData(22,33,54);
+  d3.setData(23,45,54);
+  
+  }
+
+}
